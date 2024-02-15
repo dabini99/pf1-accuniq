@@ -1,0 +1,52 @@
+section#dashboard {  
+  background-color: white;
+  position: relative;
+}
+section#dashboard .wrap {  
+  z-index: 1;
+  position: relative;
+}
+section#dashboard .wrap h2 {  
+}
+section#dashboard .wrap h2 strong {
+  line-height: 1.2;
+  padding-bottom: 30px;
+}
+section#dashboard .wrap p {  
+  margin-bottom: 50px;
+  color: gray;
+}
+section#dashboard .wrap a {
+  
+  margin-bottom: 10px;
+}
+section#dashboard .wrap ul {  
+  grid-column: 2;
+  grid-row: 1 / span 4;
+  overflow: hidden;
+  align-items: center;
+  gap: 20px;
+}
+section#dashboard .wrap ul li {  
+  box-shadow: 0 0 15px #eee;
+}
+section#dashboard .wrap ul li:not(:first-child){
+  width: 180px;
+  height: 40px;
+  margin-left: 30px;
+}
+section#dashboard .wrap ul li img {
+  
+}
+section#dashboard:after{
+  content: "";
+  width: 1823px;
+  height: 370px;
+  display: block;
+  background-color: #f5f5f5;
+  border-radius: 0 30px 30px 0;
+  left: 0;
+  /*! bottom: 50px; */
+  position: absolute;
+  top: 330px;
+}

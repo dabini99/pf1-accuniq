@@ -1,0 +1,99 @@
+section#product2 {  
+  background-color: white;
+  margin: 0 auto;
+  max-width: 1720px;
+}
+section#product2 .wrap { 
+  height: 100%;
+}
+section#product2 .wrap h2 {
+  
+}
+section#product2 .wrap ul {  
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  gap: 60px;
+}
+section#product2 .wrap ul li {
+  
+  width: 360px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+}
+section#product2 .wrap ul li a {  
+  height: 100%;
+  box-sizing: border-box;
+  transition: box-shadow 0.5s;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: end;
+}
+section#product2 .wrap ul li a:hover{
+  box-shadow: 0 0 15px #ccc;
+}
+section#product2 .wrap ul li a:after {
+  content: "";
+  background-image: url(../img/2-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  width: 265px;
+  height: 225px;
+}
+section#product2 .wrap ul li:nth-child(1) a:after {
+  background-image: url(../img/2-1.png);
+}
+section#product2 .wrap ul li:nth-child(2) a:after {
+  background-image: url(../img/2-2.png);
+}
+section#product2 .wrap ul li:nth-child(3) a:after {
+  background-image: url(../img/2-3png.png);
+}
+section#product2 .wrap ul li:nth-child(4) a:after {
+  background-image: url(../img/2-4.png);
+}
+section#product2 .wrap ul li a h3 {  
+  width: 100%;
+}
+section#product2 .wrap ul li a p {  
+  width: 100%;
+  margin-top: 15px;
+  color: gray;
+}
+section#product2 .wrap div {  
+  width: 50%;
+}
+section#product2 .wrap div article {  
+  display: grid;
+  column-gap: 50px;
+  row-gap: 24px;
+  /*! grid-template-columns: 50% calc(50% - 50px); */
+  /*! grid-template-rows: auto auto 1fr; */
+}
+section#product2 .wrap div article:not(:first-child){  
+display: none;
+}
+section#product2 .wrap div article hgroup {  
+  margin-top: 27px;
+}
+section#product2 .wrap div article hgroup h3 {
+  
+}
+section#product2 .wrap div article hgroup h4 {
+  
+}
+section#product2 .wrap div article p.h4 {
+  
+}
+section#product2 .wrap div article p.p {  
+  color: gray;
+}
+section#product2 .wrap div article img {  
+  grid-row: 4 / span 1;
+  grid-column: 1;
+  margin-left: 126px;
+  width: 500px;
+  height: 500px;
+}
