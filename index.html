@@ -59,8 +59,10 @@
                         return false;
                     }
                 );
-                
-                
+                //top버튼 누르면 위로 올라가게 하기
+                $("footer a.top").click(function(){
+                    $("html,body").animate({scrollTop:0},1000);
+                });
         });
     </script>
     <!-- slick -->
@@ -418,7 +420,7 @@
                 <a href="" class="personal">개인정보처리방침</a>
             </div>
         </section>
-        <a href="" class="top">Top</a>
+        <a href="#" class="top">Top</a>
     </footer>
     </div>
 </body>
